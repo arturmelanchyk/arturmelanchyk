@@ -17,3 +17,7 @@
 
 - Dgraph:
    - Reduce x.ParsedKey memory allocation from 72 to 56 bytes by optimizing struct memory alignment [#9047](https://github.com/dgraph-io/dgraph/pull/9047)
+
+- Consul:
+   - perf: lock-free leaderAddr [#20823](https://github.com/hashicorp/consul/pull/20823)
+   - perf: lock-free lastOutput [#20822](https://github.com/hashicorp/consul/pull/20822)
