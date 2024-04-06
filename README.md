@@ -1,16 +1,16 @@
 ### Hi there 👋
 
-<!--
-**arturmelanchyk/arturmelanchyk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- TiDB:
+   - br: use atomic for failedFilesCount [#52046](https://github.com/pingcap/tidb/pull/52046)
 
-Here are some ideas to get you started:
+- Prometheus:
+   - [STYLE] Promtool: lock-free counter in 'tsdb bench write' [#13834](https://github.com/prometheus/prometheus/pull/13834)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Weaviate:
+   - Lock-free DB::ratePerSecond counter [#4249](https://github.com/weaviate/weaviate/pull/4249)
+   - Lock-free BM25Searcher::wand() implementation [#4251](https://github.com/weaviate/weaviate/pull/4251)
+
+- ImmuDB:
+   - LRUCache optimizations [#1918](https://github.com/codenotary/immudb/pull/1918)
+   - chore(pkg/database): use atomic for waitingCount in instrumentedRWMutex [#1917](https://github.com/codenotary/immudb/pull/1917)
+   - chore(embedded/store): lock-free WaitForTx and WaitForIndexingUpto implementation [#1916](https://github.com/codenotary/immudb/pull/1916)
