@@ -21,6 +21,9 @@
 - Dolt
    - [store] use struct{} as a value in a hashset [#7706](https://github.com/dolthub/dolt/pull/7706)
 
+- RQLite:
+   - Atomic seqNum [#1749](https://github.com/rqlite/rqlite/pull/1749)
+
 - Consul:
    - perf: lock-free leaderAddr [#20823](https://github.com/hashicorp/consul/pull/20823)
    - perf: lock-free lastOutput [#20822](https://github.com/hashicorp/consul/pull/20822)
