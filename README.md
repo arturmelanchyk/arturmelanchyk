@@ -23,6 +23,7 @@
 
 - RQLite:
    - Atomic seqNum [#1749](https://github.com/rqlite/rqlite/pull/1749)
+   - Allocate len(s.notifyingNodes) raftServers [#1750](https://github.com/rqlite/rqlite/pull/1750)
 
 - Consul:
    - perf: lock-free leaderAddr [#20823](https://github.com/hashicorp/consul/pull/20823)
