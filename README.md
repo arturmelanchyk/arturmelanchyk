@@ -28,3 +28,6 @@
 - Consul:
    - perf: lock-free leaderAddr [#20823](https://github.com/hashicorp/consul/pull/20823)
    - perf: lock-free lastOutput [#20822](https://github.com/hashicorp/consul/pull/20822)
+
+- Minio:
+   - fix: replace mutex with atomic [#20762](https://github.com/minio/minio/pull/20762#event-15649234409)
