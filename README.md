@@ -24,3 +24,6 @@
 
 - Minio:
    - fix: replace mutex with atomic [#20762](https://github.com/minio/minio/pull/20762#event-15649234409)
+
+- go-sql-driver
+   - Make fileRegister a set [#1653](https://github.com/go-sql-driver/mysql/pull/1653)
