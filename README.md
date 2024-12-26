@@ -27,3 +27,6 @@
 
 - go-sql-driver
    - Make fileRegister a set [#1653](https://github.com/go-sql-driver/mysql/pull/1653)
+ 
+- livekit
+   - Reduce memory allocation in WritePaddingRTP / WriteProbePackets [#3288](https://github.com/livekit/livekit/pull/3288)
