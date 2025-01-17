@@ -36,3 +36,6 @@
    - Make processedFields a set [#1389](https://github.com/DiceDB/dice/pull/1389)
    - Single matrix memory allocation in DeepCopy [#1390](https://github.com/DiceDB/dice/pull/1390)
    - Single matrix memory allocation in DeserializeCMS [#1391](https://github.com/DiceDB/dice/pull/1391)
+
+- Loki
+   -  fix(util): specify map len [#15831](https://github.com/grafana/loki/pull/15831)
