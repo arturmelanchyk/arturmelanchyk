@@ -39,3 +39,6 @@
 
 - Loki
    -  fix(util): specify map len [#15831](https://github.com/grafana/loki/pull/15831)
+ 
+- etcd
+   -  flags: optimise memory allocation [#19201](https://github.com/etcd-io/etcd/pull/19201)
