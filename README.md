@@ -8,6 +8,7 @@
 
 - Weaviate:
    - Lock-free DB::ratePerSecond counter [#4249](https://github.com/weaviate/weaviate/pull/4249)
+   - refact: extract makeTenantResponse function [#6852](https://github.com/weaviate/weaviate/pull/6852)
 
 - ImmuDB:
    - LRUCache optimizations [#1918](https://github.com/codenotary/immudb/pull/1918)
