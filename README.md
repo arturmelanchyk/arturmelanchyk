@@ -25,7 +25,7 @@
    - Reduce memory allocations in queryStmtWithConn [#2000](https://github.com/rqlite/rqlite/pull/2000)
 
 - Minio:
-   - fix: replace mutex with atomic [#20762](https://github.com/minio/minio/pull/20762#event-15649234409)
+   - fix: replace mutex with atomic [#20762](https://github.com/minio/minio/pull/20762)
 
 - go-sql-driver
    - Make fileRegister a set [#1653](https://github.com/go-sql-driver/mysql/pull/1653)
@@ -37,6 +37,7 @@
    - Make processedFields a set [#1389](https://github.com/DiceDB/dice/pull/1389)
    - Single matrix memory allocation in DeepCopy [#1390](https://github.com/DiceDB/dice/pull/1390)
    - Single matrix memory allocation in DeserializeCMS [#1391](https://github.com/DiceDB/dice/pull/1391)
+   - Single matrix memory allocation in newCountMinSketch [#1418](https://github.com/DiceDB/dice/pull/1418)
 
 - Loki
    -  fix(util): specify map len [#15831](https://github.com/grafana/loki/pull/15831)
