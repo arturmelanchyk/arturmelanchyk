@@ -23,6 +23,7 @@
    - Atomic seqNum [#1749](https://github.com/rqlite/rqlite/pull/1749)
    - Allocate len(s.notifyingNodes) raftServers [#1750](https://github.com/rqlite/rqlite/pull/1750)
    - Reduce memory allocations in queryStmtWithConn [#2000](https://github.com/rqlite/rqlite/pull/2000)
+   - Specify capacity [#2035](https://github.com/rqlite/rqlite/pull/2035)
 
 - Minio:
    - fix: replace mutex with atomic [#20762](https://github.com/minio/minio/pull/20762)
