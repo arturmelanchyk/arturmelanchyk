@@ -5,6 +5,7 @@
 
 - Prometheus:
    - [STYLE] Promtool: lock-free counter in 'tsdb bench write' [#13834](https://github.com/prometheus/prometheus/pull/13834)
+   - promtool: optimize labels slice allocation [#15866](https://github.com/prometheus/prometheus/pull/15866)
 
 - Weaviate:
    - Lock-free DB::ratePerSecond counter [#4249](https://github.com/weaviate/weaviate/pull/4249)
