@@ -57,3 +57,6 @@
  
 - etcd
    -  flags: optimise memory allocation [#19201](https://github.com/etcd-io/etcd/pull/19201)
+
+- Xray-core
+  -    Chore: Make some Maps into real Sets [#4362](https://github.com/XTLS/Xray-core/pull/4362)
