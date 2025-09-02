@@ -1,15 +1,15 @@
 ### Hi there 👋
 
 <!-- Copy-paste in your Readme.md file -->
-
 <a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=13834276" target="_blank" style="display: block" align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=13834276&image_size=auto&color_scheme=dark" width="771" height="auto">
     <img alt="Dashboard stats of @arturmelanchyk" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=13834276&image_size=auto&color_scheme=light" width="771" height="auto">
   </picture>
 </a>
-
 <!-- Made with [OSS Insight](https://ossinsight.io/) -->
+
+[![Artur Melanchyk profile views](https://u8views.com/api/v1/github/profiles/13834276/views/day-week-month-total-count.svg)](https://u8views.com/github/arturmelanchyk)
 
 - TiDB:
    - br: use atomic for failedFilesCount [#52046](https://github.com/pingcap/tidb/pull/52046)
