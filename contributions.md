@@ -10,6 +10,9 @@
 - TiDB:
     - br: use atomic for failedFilesCount [#52046](https://github.com/pingcap/tidb/pull/52046)
 
+- Bbolt:
+    - internal/freelist: make pcache a map of struct{} [#1082](https://github.com/etcd-io/bbolt/pull/1082)
+
 - Prometheus:
     - [STYLE] Promtool: lock-free counter in 'tsdb bench write' [#13834](https://github.com/prometheus/prometheus/pull/13834)
     - promtool: optimize labels slice allocation [#15866](https://github.com/prometheus/prometheus/pull/15866)
