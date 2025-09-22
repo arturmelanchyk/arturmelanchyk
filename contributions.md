@@ -59,3 +59,6 @@
 
 - Xray-core
     -    Chore: Make some Maps into real Sets [#4362](https://github.com/XTLS/Xray-core/pull/4362)
+ 
+- FrankenPHP
+    -    fix: added missing decrement for the "ready" WaitGroup counter [#1890](https://github.com/php/frankenphp/pull/1890)
