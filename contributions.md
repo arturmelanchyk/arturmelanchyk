@@ -62,3 +62,6 @@
  
 - FrankenPHP
     -    fix: added missing decrement for the "ready" WaitGroup counter [#1890](https://github.com/php/frankenphp/pull/1890)
+
+- Fiber:
+    - chore: Use sync.Pool for Client hooks [#3758](https://github.com/gofiber/fiber/pull/3758)
