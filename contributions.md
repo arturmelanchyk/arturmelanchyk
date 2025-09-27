@@ -64,5 +64,7 @@
     -    fix: added missing decrement for the "ready" WaitGroup counter [#1890](https://github.com/php/frankenphp/pull/1890)
 
 - Fiber:
+    - perf: Improve allocations for Request Params() [#3766](https://github.com/gofiber/fiber/pull/3766)
     - chore: Use sync.Pool for Client hooks [#3758](https://github.com/gofiber/fiber/pull/3758)
     - chore: avoid locking in gc() if nothing to delete [#3765](https://github.com/gofiber/fiber/pull/3765)
+    - chore: Cleanup return error logic in Bind() [#3764](https://github.com/gofiber/fiber/pull/3764)
