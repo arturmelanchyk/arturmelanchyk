@@ -65,3 +65,4 @@
 
 - Fiber:
     - chore: Use sync.Pool for Client hooks [#3758](https://github.com/gofiber/fiber/pull/3758)
+    - chore: avoid locking in gc() if nothing to delete [#3765](https://github.com/gofiber/fiber/pull/3765)
