@@ -69,3 +69,4 @@
     - chore: Use sync.Pool for Client hooks [#3758](https://github.com/gofiber/fiber/pull/3758)
     - chore: avoid locking in gc() if nothing to delete [#3765](https://github.com/gofiber/fiber/pull/3765)
     - chore: Cleanup return error logic in Bind() [#3764](https://github.com/gofiber/fiber/pull/3764)
+    - chore: make boundary a const [#3783](https://github.com/gofiber/fiber/pull/3783)
