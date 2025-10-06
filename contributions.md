@@ -70,3 +70,5 @@
     - chore: avoid locking in gc() if nothing to delete [#3765](https://github.com/gofiber/fiber/pull/3765)
     - chore: Cleanup return error logic in Bind() [#3764](https://github.com/gofiber/fiber/pull/3764)
     - chore: make boundary a const [#3783](https://github.com/gofiber/fiber/pull/3783)
+    - chore: Skip locking garbage collector if nothing to delete [#3787](https://github.com/gofiber/fiber/pull/3787)
+    -  perf: preallocate slice size in Client::Param() [#3782](https://github.com/gofiber/fiber/pull/3782)
