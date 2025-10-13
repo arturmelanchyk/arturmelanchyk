@@ -27,7 +27,7 @@
 - Dgraph:
     - Reduce x.ParsedKey memory allocation from 72 to 56 bytes by optimizing struct memory alignment [#9047](https://github.com/dgraph-io/dgraph/pull/9047)
 
-- Dolt
+- Dolt:
     - [store] use struct{} as a value in a hashset [#7706](https://github.com/dolthub/dolt/pull/7706)
 
 - RQLite:
@@ -39,28 +39,28 @@
 - Minio:
     - fix: replace mutex with atomic [#20762](https://github.com/minio/minio/pull/20762)
 
-- go-sql-driver
+- go-sql-driver:
     - Make fileRegister a set [#1653](https://github.com/go-sql-driver/mysql/pull/1653)
 
-- livekit
+- livekit:
     - Reduce memory allocation in WritePaddingRTP / WriteProbePackets [#3288](https://github.com/livekit/livekit/pull/3288)
 
-- DiceDB
+- DiceDB:
     - Make processedFields a set [#1389](https://github.com/DiceDB/dice/pull/1389)
     - Single matrix memory allocation in DeepCopy [#1390](https://github.com/DiceDB/dice/pull/1390)
     - Single matrix memory allocation in DeserializeCMS [#1391](https://github.com/DiceDB/dice/pull/1391)
     - Single matrix memory allocation in newCountMinSketch [#1418](https://github.com/DiceDB/dice/pull/1418)
 
-- Loki
+- Loki:
     -  fix(util): specify map len [#15831](https://github.com/grafana/loki/pull/15831)
 
-- etcd
+- etcd:
     -  flags: optimise memory allocation [#19201](https://github.com/etcd-io/etcd/pull/19201)
 
-- Xray-core
+- Xray-core:
     -    Chore: Make some Maps into real Sets [#4362](https://github.com/XTLS/Xray-core/pull/4362)
  
-- FrankenPHP
+- FrankenPHP:
     -    fix: added missing decrement for the "ready" WaitGroup counter [#1890](https://github.com/php/frankenphp/pull/1890)
 
 - Fiber:
@@ -73,3 +73,6 @@
     - chore: Skip locking garbage collector if nothing to delete [#3787](https://github.com/gofiber/fiber/pull/3787)
     - perf: preallocate slice size in Client::Param() [#3782](https://github.com/gofiber/fiber/pull/3782)
     - fix: Always close form file [#3786](https://github.com/gofiber/fiber/pull/3786)
+ 
+- Traefik:
+    - Avoid allocations in readLoop by using sync.Pool [#12029](https://github.com/traefik/traefik/pull/12029)
