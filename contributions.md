@@ -44,6 +44,7 @@
 
 - livekit:
     - Reduce memory allocation in WritePaddingRTP / WriteProbePackets [#3288](https://github.com/livekit/livekit/pull/3288)
+    - fix: add missing Unlock() in AddReceiver [#4036](https://github.com/livekit/livekit/pull/4036)
 
 - DiceDB:
     - Make processedFields a set [#1389](https://github.com/DiceDB/dice/pull/1389)
