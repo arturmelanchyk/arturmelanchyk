@@ -74,6 +74,7 @@
     - chore: Skip locking garbage collector if nothing to delete [#3787](https://github.com/gofiber/fiber/pull/3787)
     - perf: preallocate slice size in Client::Param() [#3782](https://github.com/gofiber/fiber/pull/3782)
     - fix: Always close form file [#3786](https://github.com/gofiber/fiber/pull/3786)
+    - perf: Inline Request state wrappers [#3827](https://github.com/gofiber/fiber/pull/3827)
  
 - Traefik:
     - Avoid allocations in readLoop by using sync.Pool [#12029](https://github.com/traefik/traefik/pull/12029)
