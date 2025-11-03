@@ -78,6 +78,8 @@
     - fix: avoid writing into released Response in core::execFunc() [3830](https://github.com/gofiber/fiber/pull/3830)
     - chore: remove unneeded "utils" alias [#3834](https://github.com/gofiber/fiber/pull/3834)
     - chore: benchmark for cache miss case [#3836](https://github.com/gofiber/fiber/pull/3836)
+- Fiber / util:
+    - perf: unroll loops (saves ~20-40% cpu) [#158](https://github.com/gofiber/utils/pull/158)
  
 - Traefik:
     - Avoid allocations in readLoop by using sync.Pool [#12029](https://github.com/traefik/traefik/pull/12029)
